@@ -72,7 +72,7 @@ install_download() {
         service supervisord restart
     fi
     [ -d ./MinerProxy ] && rm -rf ./MinerProxy
-    git clone https://github.com/MinerPr0xy/MinerProxy.git
+    git clone https://github.com/xingyunpool/MinerProxy.git
 
     if [[ ! -d ./MinerProxy ]]; then
         echo
