@@ -192,9 +192,9 @@ uninstall() {
 clear
 while :; do
     echo
-    echo "-------- MinerProxy 一键安装脚本 by:MinerPr0xy--------"
-    echo "github下载地址:https://github.com/MinerPr0xy/MinerProxy"
-    echo "官方电报群:https://t.me/Miner_Proxy"
+    echo "-------- MinerProxy 一键安装脚本 --------"
+    echo "github下载地址:https://github.com/xingyunpool/MinerProxy"
+    echo "链之门币圈导航:https://www.lianzhimen.com"
     echo
     echo " 1. 安装MinerProxy"
     echo
