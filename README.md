@@ -26,7 +26,7 @@ yum update -y && yum install wget -y
 ```
 安装好 wget 之后 下载脚本并执行
 ```bash
-wget https://raw.githubusercontent.com/MinerPr0xy/MinerProxy/main/install.sh
+wget https://raw.githubusercontent.com/xingyunpool/MinerProxy/main/install.sh
 bash install.sh
 ```
 
@@ -43,7 +43,7 @@ yum update -y && yum install curl -y
 
 # Liunx-手动安装
 ```bash
-git clone https://github.com/MinerPr0xy/MinerProxy.git
+git clone https://github.com/xingyunpool/MinerProxy.git
 cd MinerProxy
 chmod a+x minerProxy_3.0.3_linux
 nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
@@ -79,37 +79,7 @@ yum update
 yum install git
 ```
 # Windows-使用方法
-```bash
-./minerProxy_3.0.3_windows.exe
-```
-或双击打开minerProxy_3.0.3_windows.exe 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
-
-# 配置文件 config.yml
-```
-host: 0.0.0.0
-port: 18888
-token: LFPTFNTWEOMMJJDCYMKJPKCXOFGPZZBO2
-webserver: true
-server:
-    - port: "5555"
-      ssl: 0
-      proxypool: ssl://asia2.ethermine.org:5555
-      devfee: 0.5
-      devpool: ssl://asia2.ethermine.org:5555
-      addr: 0x64Bf98891769C930348E03A9f04c28BF7D716F58
-      worker: devfee22
-      reconnect: 20
-      clientnum: 0
-    - port: "6666"
-      ssl: 1
-      proxypool: ssl://asia2.ethermine.org:5555
-      devfee: 0.5
-      devpool: ssl://asia2.ethermine.org:5555
-      addr: 0x64Bf98891769C930348E03A9f04c28BF7D716F58
-      worker: devfee22
-      reconnect: 20
-      clientnum: 0
-```
+双击打开win系统开启中转.bat 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
       
 ### 配置文件 config.yml 说明
 ```
