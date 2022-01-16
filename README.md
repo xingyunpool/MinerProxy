@@ -55,7 +55,7 @@ tail -f nohup.out (后台运行时查看)
 ```bash
 nohup ./minerProxy_3.0.3_linux &
 ```
-### 后台运行时关闭
+### 后台运行时重新启动程序
 ```bash
 killall minerProxy_3.0.3_linux
 ```
